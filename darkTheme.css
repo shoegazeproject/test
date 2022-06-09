@@ -1,0 +1,47 @@
+body {
+    /* background-color: rgb(83, 83, 83); */
+    background-color: rgb(29, 29, 29);
+    color: rgb(236, 236, 236);
+}
+#container {
+    /* background-color: rgb(29, 29, 29); */
+    color: rgb(236, 236, 236);
+}
+#header {
+    background-color: rgba(44,44,44,0.75);
+    backdrop-filter: blur(12px);
+    
+}
+.headerName:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+/* .login {background-color: rgb(70, 70, 70);} */
+.login:hover {
+    background-color: rgb(155, 155, 155);
+}
+#header a {
+    color: rgb(236, 236, 236);
+}
+.content {
+    background-color: rgb(44, 44, 44);
+}
+.themeSwitch {
+    background-image: url("img/sun.svg");
+    filter: invert(0%);
+}
+#themeSwitchBase:hover {
+    background-color: rgb(70, 70, 70);
+}
+#menuHamburger {
+    filter: invert(0%);
+}
+#menuHamburgerBase:hover {
+    background-color: rgb(70, 70, 70);
+}
+.loginSVG {
+    filter: invert(0%);
+}
+.sidebarMenu {
+    background-color: rgb(44, 44, 44);
+}
