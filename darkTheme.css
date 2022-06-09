@@ -29,18 +29,21 @@ body {
 .themeSwitch {
     background-image: url("img/sun.svg");
     filter: invert(0%);
+    --webkit-filter: invert(0%);
 }
 #themeSwitchBase:hover {
     background-color: rgb(70, 70, 70);
 }
 #menuHamburger {
     filter: invert(0%);
+    --webkit-filter: invert(0%);
 }
 #menuHamburgerBase:hover {
     background-color: rgb(70, 70, 70);
 }
 .loginSVG {
     filter: invert(0%);
+    --webkit-filter: invert(0%);
 }
 .sidebarMenu {
     background-color: rgb(44, 44, 44);

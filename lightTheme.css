@@ -6,6 +6,7 @@ body {
 #header {
     background-color: rgba(234,234,234,0.75);
     backdrop-filter: blur(6px);
+    --webkit-backdrop-filter: blur(6px);
 }
 .headerName:hover {
     background-color: rgb(207, 207, 207);
